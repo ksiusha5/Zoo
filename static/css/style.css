@@ -9,7 +9,7 @@ h1
 	font-size: 70px;
 	font-variant: small-caps;
 	text-align: center;
-	margin: 2px auto 6px auto;
+	margin: 2px auto 9px auto;
 }
 h2
 {
@@ -21,16 +21,19 @@ h2
 	margin-top: -4px !important;
 	margin-bottom: 15px;
 }
-.header h1
-{
-	margin-right: 10px;
-
+.container {
+	width: 960px !important;
+	max-width: 960px !important;
+	min-width: 960px !important;
+	margin: 0 auto !important;
+	
 }
+
 .timer
 {
 	position: absolute;
 	top:0;
-	left: 265px;
+	left: 279px;
 	top: 85px;
 }
 .separator-block
@@ -38,7 +41,7 @@ h2
 	width: 170px;
 	position: absolute;
 	top: 78px;
-	left: 301px;
+	left: 300px;
 }
 .separator:after
 {
@@ -46,13 +49,6 @@ h2
 	font-size: 35px;
 	font-weight: bold;
 	padding-right: 27px;
-}
-.container {
-	width: 960px !important;
-	max-width: 960px !important;
-	min-width: 960px !important;
-	margin: 0 auto !important;
-	padding: 0 !important;
 }
 
 .top
@@ -91,6 +87,10 @@ h2
 	font-variant: normal;
 	font-weight: normal;
 }
+.header h1
+{
+	margin-right: 10px;
+}
 .animal-left
 {
 	position: absolute;
@@ -110,25 +110,23 @@ h2
 	-ms-filter: "FlipH";
 }
 
-.left
-{
-	float: left;
-}
 .right, .left
 {
-	margin-top: 35px;
-	margin-bottom: 35px;
+	margin-top: 27px;
+	margin-bottom: 27px;
+	margin-left: -15px;
 }
-.left img
+.right
+{
+	float: right !important;
+	margin-right: -13px;
+}
+
+.left img, .right img
 {
 	border-radius: 15px;
 }
 
-.right img
-{
-	float: right;
-	border-radius: 10px;
-}
 .left-words, .right-words
 {
 	margin-bottom:  -30px;
